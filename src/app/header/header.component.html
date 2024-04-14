@@ -1,0 +1,78 @@
+<header class="header d-flex align-items-center">
+    <div class="logo">
+        <a href="#"><img src="../assets/images/logo.svg" alt="uniXecure智慧資安科技logo" class="img-fluid"></a>
+    </div>
+    <nav id="nav" class="navbar d-flex align-items-center justify-content-end justify-content-lg-between flex-grow-1">
+        <ul class="navbars" [class.active]="navbarVariable">
+            <li class="menu-item">
+                <a href="#" data-toggle="sub-menu" title="關於我們">關於我們</a>
+                <ul class="sub-menu">
+                    <li><a href="#" title="公司簡介">公司簡介</a></li>
+                    <li><a href="#" title="經營團隊">經營團隊</a></li>
+                    <li><a href="#" title="專業認證">專業認證</a></li>
+                    <li><a href="#" title="營業據點">營業據點</a></li>
+                    <li><a href="#" title="人才招募">人才招募</a></li>
+                </ul>
+            </li>
+            <li class="menu-item">
+                <a href="#" data-toggle="sub-menu" title="資安法專區">資安法專區</a>
+                <ul class="sub-menu sub-menu-multiple">
+                    <li>
+                        <a href="#" title="資安監控維運服務 MOC">資安監控維運服務 MOC</a>
+                        <a href="#" title="社交工程演練 HEIS">社交工程演練 HEIS</a>
+                        <a href="#" title="系統資源監測 SRMAS">系統資源監測 SRMAS</a>
+                        <a href="#" title="資通安全弱點通報 SIVAS">資通安全弱點通報 SIVAS</a>
+                    </li>
+                    <li>
+                        <a href="#" title="日誌管理系統 LUCAS">日誌管理系統 LUCAS</a>
+                        <a href="#" title="電子郵件過濾 SESC">電子郵件過濾 SESC</a>
+                        <a href="#" title="資通安全威脅偵測管理 SOC">資通安全威脅偵測管理 SOC</a>
+                        <a href="#" title="政府組態基準 GCB">政府組態基準 GCB</a>
+                    </li>
+                    <li>
+                        <a href="#" title="滲透測試">滲透測試</a>
+                        <a href="#" title="弱點掃描源碼檢測">弱點掃描源碼檢測</a>
+                        <a href="#" title="源碼檢測">源碼檢測</a>
+                        <a href="#" title="APP 資安檢測">APP 資安檢測</a>
+                        <a href="#" title="資通安全健檢">資通安全健檢</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#" title="共同供應契約">共同供應契約</a></li>
+            <li><a href="#" title="代理產品">代理產品</a></li>
+            <li class="menu-item">
+                <a href="#" data-toggle="sub-menu" title="最新消息">最新消息</a>
+                <ul class="sub-menu">
+                    <li><a href="#" title="成功案例">成功案例</a></li>
+                    <li><a href="#" title="新聞中心">新聞中心</a></li>
+                    <li><a href="#" title="影音專區">影音專區</a></li>
+                    <li><a href="#" title="行銷活動">行銷活動</a></li>
+                    <li><a href="#" title="報告書專區">報告書專區</a></li>
+                </ul>
+            </li>
+            <li><a href="#" title="聯繫我們">聯繫我們</a></li>
+        </ul>
+        <ul>
+            <li><a href="#" title=""><i class="fa-sharp fa-solid fa-right-to-bracket"></i></a></li>
+            <li class="d-none">
+                <a href="#" id="member-nav" title="會員專區" class="text-primary">會員專區 <i class="fa-solid fa-user"></i></a>
+                <!-- <ul id="member-dropdown" class="dropdown-menu">
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                </ul> -->
+            </li>
+            <li>
+                <a href="#" class="fa-sharp fa-solid fa-globe" title="多國語言" (click)="openLanguage()"></a>
+                <ul class="dropdown-menu" [class.show]="languageVariable">
+                    <li><a href="#" (click)="offLanguage()">繁體中文</a></li>
+                    <li><a href="#" (click)="offLanguage()">English</a></li>
+                    <li><a href="#" (click)="offLanguage()">日本語</a></li>
+                </ul>
+            </li>
+            <li class="d-block d-lg-none"><a href="#" title="" (click)="openMenu()"><i class="fa-solid fa-bars" [class.fa-xmark]="navbarVariable"></i></a></li>
+        </ul>
+    </nav>
+</header>

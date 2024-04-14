@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+@import url(https://kit.fontawesome.com/fb083deec1.css);
+// nice-select
+// @import "~nice-select2/src/scss/nice-select2.scss";
+// main
+@import './assets/scss/variables';
+@import './assets/scss/functions';
+@import './assets/scss/mixin';
+@import './assets/scss/utilities';
+@import './assets/scss/root';
+@import './assets/scss/reboot';
+@import './assets/scss/containers';
+@import './assets/scss/grid';
+@import './assets/scss/colors';
+@import './assets/scss/mixin/gradient';
+@import './assets/scss/spacie';
+@import './assets/scss/links';
+@import './assets/scss/lists';
+@import './assets/scss/images';
+@import './assets/scss/ratios';
+@import './assets/scss/limitLines';
+@import './assets/scss/headings';
+@import './assets/scss/background';
+@import './assets/scss/borders';
+@import './assets/scss/form';
+@import './assets/scss/button';
+@import './assets/scss/utilities/api';
+@import './assets/scss/modal';
+@import './assets/scss/main';
