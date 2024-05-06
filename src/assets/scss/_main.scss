@@ -2,8 +2,15 @@
 @import 'navbar';
 @import 'breadcrumb';
 @import 'card';
+@import 'process';
+@import 'index';
 @import 'aboutUs';
+@import 'serve';
+@import 'represent';
+@import 'joint_supply_contract';
 @import 'news';
+@import 'contact';
+@import 'copyright';
 @import 'pagination';
 @import 'share';
 @import 'footer';
@@ -11,6 +18,28 @@
 .warpper {
     max-height: 100vh;
 }
+.section {
+    padding: 50px 0;
+}
 .main {
     padding-top: $header-height;
+    position: relative;
+    overflow: hidden;
+}
+.cookies-box {
+    padding: 10px 40px ;
+    > button {
+        padding: 4px 16px;
+        margin-left: 40px;
+    }
+}
+.hr {
+    border-top: 1px solid var(--gray-200);
+}
+.page-title {
+    font-size: toRem(50px);
+    padding: {
+        top: 60px;
+        bottom: 60px;
+    };
 }
